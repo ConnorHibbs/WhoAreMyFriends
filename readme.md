@@ -1,9 +1,12 @@
 # Who Are My F.R.I.E.N.D.S?
 
 ## Desciption
-David Crane and Marta Kauffman, the creators of the classic TV sitcom F.R.I.E.N.D.S, are looking to revive the show as a Netflix Original. They are looking to hire the original writers and directors of the show, but Netflix has restricted them to only those that had a cummulative episode rating above the average for the show. They are looking for help to determine who to hire back (and in what order).
+David Crane and Marta Kauffman, the creators of the classic TV sitcom F.R.I.E.N.D.S, are looking to revive the show as a Netflix Original. They are looking to hire the original *writers* and *directors* of the show, but Netflix has restricted them to only those that had a cummulative episode rating above the average for the show. They are looking for help to determine who to hire back (and in what order).
 
 As Netflix is losing streaming rights to the show, they have restricted which episodes can be used to determine which creative minds to hire. They will provide you with a limited selection of episodes which they think are most representative of the show. Your task is to find the names of the geniuses you want on your staff (following Netflix's rules) and what their average episode score is.
+
+## Assumptions:
+  * "Cummulative Episode Rating" = avg(every _individual_ rating for episodes they worked on)
 
 ## Input: 
   * A single collection of data, in JSON notation.
@@ -13,7 +16,7 @@ As Netflix is losing streaming rights to the show, they have restricted which ep
   * List should be sorted by average episode rating (highest on top), and then by names alphabetically in case of a tie
   * Ratings should be rounded to 2 decimal places
 
-## Example Output (from entire data set):
+## Example Output (from entire data set, *001.in*):
 ```
 Joe Regalbuto 9.10
 Suzie V. Freeman 9.10
